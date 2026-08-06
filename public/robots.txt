@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://diana-jydai.github.io/sitemap.xml

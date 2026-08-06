@@ -3,3 +3,4 @@ node_modules
 .vscode/tasks.json
 .DS_Store
 *.log
+vite.config.js

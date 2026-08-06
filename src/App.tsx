@@ -124,7 +124,7 @@ type Content = {
 }
 
 const content: Content = {
-  siteTitle: '',
+  siteTitle: 'Jingyang Dai 戴婧扬',
   nav: {
     bio: '',
     news: 'News',
@@ -229,7 +229,7 @@ const content: Content = {
 function App() {
   useEffect(() => {
     document.documentElement.lang = 'en'
-    document.title = content.siteTitle
+    document.title = 'Jingyang Dai (戴婧扬) — Incoming PhD Student, NTU CCDS'
   }, [])
 
   return (
