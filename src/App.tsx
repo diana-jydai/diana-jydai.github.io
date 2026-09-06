@@ -135,14 +135,13 @@ const content: Content = {
   },
   bioSection: {
     name: 'Dai, Jingyang 戴婧扬',
-    title: 'Incoming PhD student @ NTU CCDS',
-    subtitle: 'Project Officer, SIGNAL Group @ NTU EEE',
+    title: 'Ph.D. student @ NTU CCDS',
     affiliation: '',
     mentor: '',
     bio: [
       'Hi there,',
-      'I am currently a Project Officer in <a href="https://scholar.google.com/citations?user=BkCI7rEAAAAJ&hl=en" target="_blank" rel="noreferrer">Professor Tay Wee Peng</a>’s SIGNAL Group at NTU EEE, where I am co-supervised by <a href="https://scholar.google.com/citations?user=EA0VBD8AAAAJ&hl=en" target="_blank" rel="noreferrer">Dr. Ji Feng</a>. And I will become a PhD student in NTU CCDS supervised by <a href="https://scholar.google.com/citations?user=_Pvgwd0AAAAJ&hl=en" target="_blank" rel="noreferrer">Professor Liu Yang</a> from August 2026.',
-      'My research topics will focus on the intersection of AI and finance, including but not limited to LLM agent framework enhancement, quant trading strategy optimization.',
+      'I am currently a Ph.D. student at College of Computing and Data Science (CCDS) at Nanyang Technological University (NTU) supervised by <a href="https://scholar.google.com/citations?user=_Pvgwd0AAAAJ&hl=en" target="_blank" rel="noreferrer">Professor Liu Yang</a>. Previously, I was a Research Assistant/Project Officer in <a href="https://scholar.google.com/citations?user=BkCI7rEAAAAJ&hl=en" target="_blank" rel="noreferrer">Professor Tay Wee Peng</a>’s SIGNAL Group at NTU EEE, where I was co-supervised by <a href="https://scholar.google.com/citations?user=EA0VBD8AAAAJ&hl=en" target="_blank" rel="noreferrer">Dr. Ji Feng</a> doing ML and DL studies.',
+      'My research focuses on recursive self-improvement/self-evolving AI systems.',
     ],
   },
   news: [
@@ -229,7 +228,7 @@ const content: Content = {
 function App() {
   useEffect(() => {
     document.documentElement.lang = 'en'
-    document.title = 'Jingyang Dai (戴婧扬) — Incoming PhD Student, NTU CCDS'
+    document.title = 'Jingyang Dai — Ph.D. Student, NTU CCDS'
   }, [])
 
   return (
