@@ -136,6 +136,7 @@ const content: Content = {
   bioSection: {
     name: 'Dai, Jingyang 戴婧扬',
     title: 'Ph.D. student @ NTU CCDS',
+    subtitle: '',
     affiliation: '',
     mentor: '',
     bio: [
