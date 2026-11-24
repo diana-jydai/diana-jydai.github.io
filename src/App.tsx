@@ -11,7 +11,6 @@ import polarflowImg from './polarflow.jpg'
 import sensorImg from './sensor.jpg'
 import spectralImg from './spectral.jpg'
 import iscasPaper from './ISCAS2026_ICNet_for_Mutimodal_PCB_Image_Analysis.pdf'
-import icmlPaper from './2509.pdf'
 import tmlrPaper from './6809.pdf'
 
 // Monochrome icons (inherit currentColor)
@@ -302,8 +301,8 @@ const content: Content = {
     ],
   },
   news: [
-    { date: '2026-09', text: 'One paper (Adaptive Multi-view Graph Contrastive Learning via Fractional-order Neural Diffusion Networks) was accepted to NeurIPS 2026.' },
-    { date: '2026-09', text: 'One paper (Less is More: Towards Simple Graph Contrastive Learning) was accepted to NeurIPS 2026.' },
+    { date: '2026-09', text: 'One paper (Adaptive Multi-view Graph Contrastive Learning via Fractional Continuous Dynamics) was accepted to NeurIPS 2026.' },
+    { date: '2026-09', text: 'One paper (Return to Basics: Very Simple Graph Contrastive Learning via Noise Cancellation Principle) was accepted to NeurIPS 2026.' },
     { date: '2026-09', text: 'One paper (CMT-Net: Cross-Modal Multi-Task Learning for Automated Inspection of Integrated Circuits in Printed Circuit Boards) was accepted to IEEE Transactions on Circuits and Systems I: Regular Papers (TCAS-I).' },
     { date: '2026-08', text: 'Started my Ph.D. journey at NTU CCDS.' },
     { date: '2026-04', text: 'One paper (Explainable Error Detection in Integrated Circuits Image Segmentation via Graph Neural Networks) was accepted to Transactions on Machine Learning Research (TMLR).' },
@@ -317,26 +316,27 @@ const content: Content = {
   helper: '',
   items: [
     {
-      title: 'Less is More: Towards Simple Graph Contrastive Learning',
+      title: 'Return to Basics: Very Simple Graph Contrastive Learning via Noise Cancellation Principle',
       authors:
         'Yanan Zhao, Feng Ji, Jingyang Dai, Jiaze Ma, and Wee Peng Tay',
       venue: 'Conference on Neural Information Processing Systems (NeurIPS)',
       year: '2026',
       image: icmlImg,
       links: [
-        { label: 'Paper', href: icmlPaper },
+        { label: 'Poster', href: 'https://neurips.cc/virtual/2026/loc/sydney/poster/151575' },
         { label: 'arXiv', href: 'https://arxiv.org/abs/2509.25742' },
         { label: 'Code', href: 'https://github.com/YananZhao0630/BackToBasics-GCL' },
       ],
     },
     {
-      title: 'Adaptive Multi-view Graph Contrastive Learning via Fractional-order Neural Diffusion Networks',
+      title: 'Adaptive Multi-view Graph Contrastive Learning via Fractional Continuous Dynamics',
       authors:
         'Yanan Zhao, Feng Ji, Jingyang Dai, Jiaze Ma, Keyue Jiang, Kai Zhao, and Wee Peng Tay',
       venue: 'Conference on Neural Information Processing Systems (NeurIPS)',
       year: '2026',
       image: fdmvgclImg,
       links: [
+        { label: 'Poster', href: 'https://neurips.cc/virtual/2026/loc/paris/poster/151789' },
         { label: 'arXiv', href: 'https://arxiv.org/abs/2511.06216' },
         { label: 'Code', href: 'https://github.com/YananZhao0630/FD-MVGCL' },
       ],
